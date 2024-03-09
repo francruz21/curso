@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex; /* Usar flexbox para centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    min-height: 100vh; /* Asegurar que el contenedor ocupe al menos el 100% de la altura de la ventana */
+}
+
+.container {
+    width: 21cm; /* Ancho de la hoja A4 */
+    height: 29.7cm; /* Alto de la hoja A4 */
+    max-width: 90%; /* Máximo ancho del contenedor */
+    max-height: 90%; /* Máximo alto del contenedor */
+    background-color: white; /* Color de fondo de la hoja A4 */
+    padding: 20px; /* Espacio interior */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    display: flex; /* Usar flexbox para alinear verticalmente */
+    flex-direction: column; /* Alinear elementos en columna */
+    align-items: center; /* Centrar elementos verticalmente */
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin: 0; /* Eliminar el margen predeterminado */
+    padding: 10px 0;
+}
+
+h2 {
+    text-align: center;
+    color: #f0f0f0;
+    margin: 0; /* Eliminar el margen predeterminado */
+    padding: 10px 0;
+}
+
+.profileimage {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.header-container {
+    flex-direction: column; /* Alinear los elementos en columna */
+    align-items: center; /* Centrar los elementos verticalmente */
+    background-color: #154560;
+    padding: 1px;
+    width: 825px;
+    margin-top: 20px; /* Espacio entre el contenedor y la página */
+    position: relative;
+}
+
+.header-container h1 {
+    margin-top: 0;
+}
+
+h3{
+    color: #f0f0f0;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 1px;
+    width: 825px;
+    margin-top: 20px; /* Espacio entre el contenedor y la página */
+
+    background-color: #154560;
+
+}
